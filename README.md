@@ -1,2 +1,4 @@
 # platemeltR
 R scripts with functions that I might build in to a package for handling the data formats platereaders often output
+
+I use a platereader for alot of experiments. They are really helpful for doing microbial growth curves when you want to consider lots of different conditions in a single experiment. I like using R to analyse this data and plot and express it, but the way the data is output from platereaders isn't really useful for alot of the statistical tools in base R and plotting with ggplot2. I've written similar lines of code over and over again to massage data and extract useful bits of it, so I'm collecting here scripts that will build functions that fulfill these in to your global environment in Rstudio. Might make a cool package one day. I am an R noob still so please be gentle :3
